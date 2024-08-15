@@ -1,0 +1,15 @@
+{
+  "name": "youtube-subscribers-api",
+  "version": "1.0.0",
+  "description": "A serverless function to fetch YouTube channel subscriber count",
+  "main": "api/subscribers.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.4"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
